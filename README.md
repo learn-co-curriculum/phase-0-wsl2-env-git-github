@@ -1,4 +1,4 @@
-# Configuring GitHub and Flatiron Student Portal
+# Configuring Git, GitHub, and the Flatiron Student Portal on WSL2
 
 ## Create a GitHub account
 
