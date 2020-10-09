@@ -20,12 +20,12 @@ If you were able to verify your email address, continue below.
 
 ## Configure Git and GitHub
 
-Git is the tool that we’ll use to download and upload the work that we do in
-labs and lessons. In order to use Git without signing in every time, you can
-create a Secure Shell (SSH) key and associate that to your GitHub account.
-Lastly, you will want to run a few commands to make sure that when you use Git,
-you get the proper credit for your work. This step will ask you to do work both
-in your browser and your terminal.
+Git is the tool that we’ll use to download and upload the work we do in labs and
+lessons. To use Git without signing in every time, you can create a Secure Shell
+(SSH) key and associate that to your GitHub account. Lastly, you will want to
+run a few commands to make sure that when you use Git, you get the proper credit
+for your work. This step will ask you to do work both in your browser and your
+terminal.
 
 ### Action Item
 
@@ -51,9 +51,9 @@ If you see your new SSH key beneath the "SSH keys" heading, continue below.
 
 ## Connect your GitHub Account to your Flatiron School Portal Account
 
-Flatiron School has some helpful tools for you when it comes to working on your
-labs and lessons through GitHub. In order for those tools to work, you will need
-to connect your Flatiron School Portal account to your GitHub account.
+Flatiron School has some helpful tools for you when working on your labs and
+lessons through GitHub. For those tools to work, you will need to connect your
+Flatiron School Portal account to your GitHub account.
 
 ### Action Item
 
