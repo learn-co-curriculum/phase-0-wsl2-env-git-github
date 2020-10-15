@@ -16,6 +16,8 @@ have one_.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mFZOVj8hago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you were able to verify your email address, continue below.
 
 ## Configure Git and GitHub
@@ -47,6 +49,8 @@ terminal.
 
 ### Check Your Work
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZosWXqhYD00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you see your new SSH key beneath the "SSH keys" heading, continue below.
 
 ## Connect your GitHub Account to your Flatiron School Portal Account
@@ -73,6 +77,8 @@ Flatiron School Portal account to your GitHub account.
 [github account]: https://learn.co/account/github
 
 ### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nT0vrNNy1-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you go back to the [GitHub Account Management webpage][portal github]
 (https://portal.flatironschool.com/account/github) and see a red "Disconnect"
