@@ -1,4 +1,4 @@
-# Configuring Git, GitHub, and the Flatiron Student Portal on WSL2
+# Configuring Git and GitHub on WSL2
 
 ## Create a GitHub Account
 
@@ -51,70 +51,4 @@ terminal.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZosWXqhYD00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you see your new SSH key beneath the "SSH keys" heading, continue below.
-
-## Connect your GitHub Account to your Flatiron School Portal Account
-
-Flatiron School has some helpful tools for you when working on your labs and
-lessons through GitHub. For those tools to work, you will need to connect your
-Flatiron School Portal account to your GitHub account.
-
-### Action Item
-
-1. Open the [Flatiron School Student Portal webpage][flatiron portal]
-   (https://portal.flatironschool.com) _(Note: you need to be logged in to
-   Flatiron School Student Portal.)_
-2. Click on "Course" in the navigation bar at the top of the screen
-3. Click the blue "Switch Materials" button in the dropdown
-4. Click on the course that you are about to start
-5. Open the [GitHub Account Management webpage][github account]
-   (https://learn.co/account/github) _(Note: you may be asked to log in. Use
-   your Flatiron School Student Portal username and password here.)_
-   <!-- Note: this domain is not the Portal because of Canvas flows -->
-6. Connect your GitHub account to your Flatiron School Portal account
-
-[flatiron portal]: https://portal.flatironschool.com
-[github account]: https://learn.co/account/github
-
-### Check Your Work
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nT0vrNNy1-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-If you go back to the [GitHub Account Management webpage][portal github]
-(https://portal.flatironschool.com/account/github) and see a red "Disconnect"
-button, continue below.
-
-[portal github]: https://portal.flatironschool.com/account/github
-
-## Configure the learn-co gem on Ubuntu
-
-The learn-co gem is the tool that we’ll be using to test and submit the labs and
-lessons that we’re working on. Before you can use it, you will need to connect
-your Flatiron School Portal account to the copy of the learn-co gem on your
-computer. This step will ask you to do work both in your browser and your
-terminal.
-
-### Action Item
-
-1. Open the "Ubuntu" application using the "Start" menu
-2. Type `touch ~/.netrc && chmod 0600 ~/.netrc` and press `<Enter>` _(Note: you
-   may be asked to enter your password.)_
-3. Type `learn whoami` and press `<Enter>` _(Note: don’t type anything here yet.)_
-4. Go to your [Public Profile Management webpage][]
-   (https://portal.flatironschool.com/account/profile) in your browser _(Note:
-   if you’re not logged in, you will need to log in again.)_
-5. Look for the "Username" heading and copy your username, but do not copy the
-   text `https://learn.co/`
-6. Go to your Flatiron School Student Portal Profile page
-   ("https://portal.flatironschool.com/" + your username)
-7.  Scroll all the way to the bottom of the page to the heading "The information
-    below is sensitive and unique to your account. Only you can view this
-    information." with a red background.
-8.  Copy the string of characters under the "OAuth token" header
-9.  Paste the string of characters into the terminal and press `<Enter>`
-
-[Public Profile Management webpage]: https://portal.flatironschool.com/account/profile
-
-### Check Your Work
-
-If you see a message with your name, username, and email, continue to the next lesson, **Verify and Troubleshoot Your WSL2 Environment Setup**.
+If you see your new SSH key beneath the "SSH keys" heading, continue to the next lesson, **Verify and Troubleshoot Your WSL2 Environment Setup**.
