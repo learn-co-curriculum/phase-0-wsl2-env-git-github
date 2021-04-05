@@ -36,7 +36,7 @@ terminal.
 3. Type `git config --global user.name` + `<Space>` + your name and press `<Enter>`
 4. Type `git config --global user.email` + `<Space>` + the email address you
    used to sign up to GitHub and press `<Enter>`
-5. Type `ssh-keygen` and press `<Enter>`, for each prompt do not type anything,
+5. Type `ssh-keygen` and press `<Enter>`, **for each prompt do not type anything**,
    just continue to press `<Enter>`
 7. Type `cat ~/.ssh/id_rsa.pub | clip.exe` and press `<Enter>`. This will copy your SSH key to your clipboard
 8. Open the [GitHub New SSH key form][ssh form] (https://github.com/settings/ssh/new)
