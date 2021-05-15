@@ -38,6 +38,8 @@ terminal.
    used to sign up to GitHub and press `<Enter>`
 5. Type `ssh-keygen` and press `<Enter>`, for each prompt **do not type anything**,
    just continue to press `<Enter>`
+6. Type `git config --global init.defaultBranch main` to
+   [update the default branch name][] to `main`
 7. Type `cat ~/.ssh/id_rsa.pub | clip.exe` and press `<Enter>`. This will copy your SSH key to your clipboard
 8. Open the [GitHub New SSH key form][ssh form] (https://github.com/settings/ssh/new)
    _(Note: you need to be logged in to GitHub to access that link.)_
@@ -46,9 +48,11 @@ terminal.
 11. Click "Add SSH Key"
 
 [ssh form]: https://github.com/settings/ssh/new
+[update the default branch name]: https://github.com/github/renaming
 
 ### Check Your Work
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZosWXqhYD00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you see your new SSH key beneath the "SSH keys" heading, continue to the next lesson, **Verify and Troubleshoot Your WSL2 Environment Setup**.
+If you see your new SSH key beneath the "SSH keys" heading, continue to the next
+lesson, **Verify and Troubleshoot Your WSL2 Environment Setup**.
