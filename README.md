@@ -45,7 +45,9 @@ see a version greater than 2.30.0.
 
 1. Open the "Ubuntu" application using the "Start" menu
 2. Type `git config --global color.ui true` and press `<Enter>`
-3. Type `git config --global user.name` + `<Space>` + your name and press `<Enter>`
+3. Type `git config --global user.name` + `<Space>` + your name and press
+   `<Enter>` _(Note: this should be your full name, not your GitHub username, in
+   quotes.)_
 4. Type `git config --global user.email` + `<Space>` + the email address you
    used to sign up to GitHub and press `<Enter>`
 5. Type `git config --global init.defaultBranch main` to
