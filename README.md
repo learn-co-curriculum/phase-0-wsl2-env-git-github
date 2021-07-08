@@ -52,8 +52,12 @@ see a version greater than 2.30.0.
    used to sign up to GitHub and press `<Enter>`
 5. Type `git config --global init.defaultBranch main` to
    [update the default branch name][] to `main`
-6. Type `ssh-keygen` and press `<Enter>`, for each prompt **do not type anything**,
-   just continue to press `<Enter>`
+6. Type `ssh-keygen` and press `<Enter>`, for each prompt **do not type
+   anything**, just continue to press `<Enter>`. It's particularly important
+   that you **do not enter a passphase** and leave the passphrase empty when
+   prompted; otherwise, you'll have to enter that passphrase any time you
+   interact with GitHub (which will happen a lot during the program); and you
+   may run into issues submitting assignments later.
 7. Type `cat ~/.ssh/id_rsa.pub | clip.exe` and press `<Enter>`. This will copy your SSH key to your clipboard
 8. Open the [GitHub New SSH key form][ssh form] (https://github.com/settings/ssh/new)
    _(Note: you need to be logged in to GitHub to access that link.)_
