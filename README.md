@@ -3,7 +3,7 @@
 ## Create a GitHub Account
 
 To work on and get credit for the labs and lessons that you work on during the
-program, you will need to sign up for a GitHub account _if you don’t already
+program, you will need to sign up for a GitHub account _if you don't already
 have one_.
 
 ### Action Item
@@ -16,18 +16,20 @@ have one_.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mFZOVj8hago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f2yf1RJUAp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you were able to verify your email address, continue below.
 
 ## Configure Git and GitHub
 
-Git is the tool that we’ll use to download and upload the work we do in labs and
-lessons. To use Git without signing in every time, you can create a Secure Shell
-(SSH) key and associate that to your GitHub account. Lastly, you will want to
-run a few commands to make sure that when you use Git, you get the proper credit
-for your work. This step will ask you to do work both in your browser and your
-terminal.
+[Git][git] is the tool that we'll use to download and upload the work we do in
+labs and lessons. To use Git without signing in every time, you can create a
+Secure Shell (SSH) key and associate that to your GitHub account. Lastly, you
+will want to run a few commands to make sure that when you use Git, you get the
+proper credit for your work. This step will ask you to do work both in your
+browser and your terminal.
+
+[git]: https://git-scm.com/download/linux
 
 ### Action Item: Update Git
 
@@ -36,10 +38,15 @@ terminal.
    package repository for downloading the latest version of Git. Follow the
    prompts in the terminal.
 3. Type `sudo apt update` and press `<Enter>` to update your local repository cache
-4. Type `sudo apt install git` and press `<Enter>` to install the latest version of Git
+4. Type `sudo apt install git` and press `<Enter>` to install the latest version
+   of Git
+
+### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hgAurDMhKAc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can check your work by typing `git --version` in the terminal. You should
-see a version greater than 2.30.0.
+see a version greater than 2.33.0.
 
 ### Action Item: Configure Git
 
@@ -58,11 +65,13 @@ see a version greater than 2.30.0.
    prompted; otherwise, you'll have to enter that passphrase any time you
    interact with GitHub (which will happen a lot during the program); and you
    may run into issues submitting assignments later.
-7. Type `cat ~/.ssh/id_rsa.pub | clip.exe` and press `<Enter>`. This will copy your SSH key to your clipboard
-8. Open the [GitHub New SSH key form][ssh form] (https://github.com/settings/ssh/new)
-   _(Note: you need to be logged in to GitHub to access that link.)_
+7. Type `cat ~/.ssh/id_rsa.pub | clip.exe` and press `<Enter>`. This will copy
+   your SSH key to your clipboard
+8. Open the [GitHub New SSH key form][ssh form]
+   (https://github.com/settings/ssh/new) _(Note: you need to be logged in to
+   GitHub to access that link.)_
 9. Type "My personal PC" in the "Title" input field
-10. Paste what’s on your clipboard from step seven in the "Key" input field
+10. Paste what's on your clipboard from step seven in the "Key" input field
 11. Click "Add SSH Key"
 
 [ssh form]: https://github.com/settings/ssh/new
@@ -70,7 +79,7 @@ see a version greater than 2.30.0.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZosWXqhYD00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bRCOqNaYnKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see your new SSH key beneath the "SSH keys" heading, continue to the next
 lesson, **Verify and Troubleshoot Your WSL2 Environment Setup**.
