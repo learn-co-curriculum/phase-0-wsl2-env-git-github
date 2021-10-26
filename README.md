@@ -2,7 +2,7 @@
 
 ## Create a GitHub Account
 
-To work on and get credit for the labs and lessons that you work on during the
+To work on and get credit for the labs and lessons that you do during the
 program, you will need to sign up for a GitHub account _if you don't already
 have one_.
 
@@ -24,8 +24,8 @@ If you were able to verify your email address, continue below.
 
 [Git][git] is the tool that we'll use to download and upload the work we do in
 labs and lessons. To use Git without signing in every time, you can create a
-Secure Shell (SSH) key and associate that to your GitHub account. Lastly, you
-will want to run a few commands to make sure that when you use Git, you get the
+Secure Shell (SSH) key and associate that to your GitHub account. You will also
+need to run a few commands to make sure that when you use Git, you get the
 proper credit for your work. This step will ask you to do work both in your
 browser and your terminal.
 
@@ -59,12 +59,12 @@ see a version greater than 2.33.0.
    used to sign up to GitHub and press `<Enter>`
 5. Type `git config --global init.defaultBranch main` to
    [update the default branch name][] to `main`
-6. Type `ssh-keygen` and press `<Enter>`, for each prompt **do not type
+6. Type `ssh-keygen` and press `<Enter>`. For each prompt **do not type
    anything**, just continue to press `<Enter>`. It's particularly important
-   that you **do not enter a passphase** and leave the passphrase empty when
-   prompted; otherwise, you'll have to enter that passphrase any time you
-   interact with GitHub (which will happen a lot during the program); and you
-   may run into issues submitting assignments later.
+   that you **do not enter a passphase**; you should leave the passphrase empty
+   when prompted. If you enter a passphrase here, you'll have to enter it every
+   time you interact with GitHub (which will happen a lot during the program).
+   You may also run into issues submitting assignments later.
 7. Type `cat ~/.ssh/id_rsa.pub | clip.exe` and press `<Enter>`. This will copy
    your SSH key to your clipboard
 8. Open the [GitHub New SSH key form][ssh form]
