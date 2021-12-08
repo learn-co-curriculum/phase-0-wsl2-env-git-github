@@ -82,4 +82,4 @@ see a version greater than 2.33.0.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bRCOqNaYnKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see your new SSH key beneath the "SSH keys" heading, continue to the next
-lesson, **Verify and Troubleshoot Your WSL2 Environment Setup**.
+lesson, **Configuring the Flatiron Student Portal**.
